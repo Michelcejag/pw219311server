@@ -1,4 +1,42 @@
 body{
 	border: 1px solid red;
+	margin: 0px auto;
 	max-width: 1024px;
+}
+header{
+	background: #d9e4ea; /*RGB*/
+	
+}
+header nav {
+	background: #016fc1;
+	border-radius: 5px;
+	margin: 0px auto;
+	padding: 2px 0px;
+	width: 99%;
+}
+header nav form{
+	float: right;
+	margin-right: 20px;
+	margin-top: -40px;
+}
+
+}
+header nav form input
+{
+	border-radius: 5px;
+}
+
+header nav form input[type="button"]{
+	background: grenn;
+	border: 1px solid green;
+	color: white;
+}
+header nav ul li{
+	/*border: 1px solid blue;	*/
+	color: white;
+	display: inline-block;
+	margin-right: 20px;
+}
+#logo{
+	margin-top: 50px -150px;
 }
