@@ -1,0 +1,13 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto; /*centrar la pantalla*/
+	max-width: 1078px; /*cliente*/
+	min-width: 1078px;
+}
+#granthams{
+	margin-left: 25px;
+}
+#paint{
+	float: right;
+	margin-top: 25px;
+}
