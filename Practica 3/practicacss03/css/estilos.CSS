@@ -1,0 +1,149 @@
+body{
+	font-size: 16px;
+    margin: 0px auto;
+    max-width: 1080px;
+    min-height: 1080px;
+   /*background: #eeeeee;*/
+}
+
+header{
+	
+	height: 70px;/*alto*/
+	/*color: grey;*/
+	background: #f0f0f0;
+}
+
+header input{
+    float: left;
+    margin-top: 12px;
+    margin-left: 100px;
+    height: 25px; /*alto*/
+    width: 134px; /*largo*/
+    direction: ltr;
+    text-align: right;
+}
+header img{
+	width: 770px;
+	margin-right: 200px; 
+	margin: 10px;
+}
+
+#secc01art2{
+	background: #b4d052;
+    margin-right: -5px;
+
+ }   
+#secc01art3{
+	background: #545454;
+    margin-right: -10px;
+}
+#secc01art4{
+	background: #d42d3f;
+    margin-right: -10px;
+}
+#secc01art5{
+	background: #e4e4e4;
+    margin-right: -10px;
+}
+#primerSeccion{
+	height: 280px;
+    margin-top: 0.5px;
+    margin-right: -0.9px;
+    padding-bottom: 50px;
+    background: #2b2b2b;
+}
+
+#primerSeccion article {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    width: 19.5%;
+    height: 290px;
+    border: 5px;
+       
+}
+#primerSeccion ul{
+	  list-style: none;
+    font-family: cursive;
+    color: white;
+}
+#segundaSeccion{
+	height: 280px;
+    margin-top: 0.5px;
+    margin-right: -0.9px;
+    padding-bottom: 80px;
+    background: #2e2d2e;
+}
+
+#segundaSeccion article {
+    display: inline-block;
+   vertical-align: top;
+    width: 30%;
+    margin-left: 25px;
+    text-align: right 100px;
+   
+}
+#segundaSeccion article img{
+
+	   margin-bottom: 10px;
+	    width: 200px;
+	    height: 30px;
+
+}
+
+#gulogo{
+	 width: 200px;
+    margin-left: 30px;
+    margin: 10px;
+	}
+.imgs02{
+	margin:10px;
+	padding: 9.8px;
+	 /*border-bottom: 1px dashed white; */
+    float: right;
+    width: 290px;
+    width: 80%;
+
+}
+
+.nito{
+	font-weight: bold;
+}
+
+.Titulo{
+	  font-size: 1.4em;
+
+
+}
+.Pie{
+	font-size: 0.9em;
+
+}
+.Contenido{
+	font-size: 0.8em;
+
+}
+.LBlanca{
+	color: white;
+
+}
+.Lgris{
+	color: gray;
+}
+.gris{
+	color: gray;
+}
+.texto{
+	font-size: 0.8em;
+	 text-align: justify;
+}
+
+
+.dercha{
+	margin-left: 80px;
+
+}
+.PieIzquierda{
+	margin-left: 210px;
+  }
+
