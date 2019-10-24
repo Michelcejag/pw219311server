@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora basica</title>
+	<style>
+		button{
+			width: 30px;
+		}
+		input{
+			text-align: right;
+			width: 90%;
+		}
+		table{
+			border-radius: 5px;
+			box-shadow: 5px 5px black;
+		}
+		td{
+			text-align: center;
+		}
+	</style>
+
+	<script>
+		var ope="";
+
+		function numero (num){
+		console.log("valor de ope:"+ope);
+			
+		var dato=document.getElementById('operando1').value;
+		var dato2=document.getElementById('operando2').value;
+
+			if(ope=="")//operando1
+			{
+				if(dato=="0"){
+					document.getElementById('operando1').value="";
+				}
+				document.getElementById('operando1').value+=num;
+
+			}else{//operando2
+				if(dato2=="0"){
+					document.getElementById('operando2').value="";
+				}
+				document.getElementById('operando2').value+=num;
+
+			}
+			
+			
+		}
+		function operador (opera){
+				ope=opera;
+			}
+			function igual(){
+			var dato2=document.getElementById('operando2').value;
+			if(ope=="/"){
+				if(dato2=="0"){
+					alert("No puede haber division entre cero")
+					}
+				}
+				document.getElementById('operando1').value=eval(operando1+ope+operando2);
+				document.getElementById('operando1').value="";
+
+			}
+	</script>
+
+</head>
+<body>
+	<table border align="center">
+
+		<tr>
+			<td colspan=4>
+				<input type="text" id="operando1" value="0">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" id="operando2" value="0">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button onClick="numero(7)">7</button>
+				<button onClick="numero(8)">8</button>
+				<button onClick="numero(9)">9</button>
+				<button onClick="operador('+')">+</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button onClick="numero(4)">4</button>
+				<button onClick="numero(5)">5</button>
+				<button onClick="numero(6)">6</button>
+				<button onClick="operador('-')">-</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button onClick="numero(1)">1</button>
+				<button onClick="numero(2)">2</button>
+				<button onClick="numero(3)">3</button>
+				<button onClick="operador('*')">*</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button onClick="igual()">=</button>
+				<button onClick="numero(0)">0</button>
+				<button onClick="ce()">CE</button>
+				<button onClick="operador('/')">/</button>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
