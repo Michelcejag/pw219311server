@@ -49,15 +49,16 @@
 		function operador (opera){
 				ope=opera;
 			}
-			function igual(){
+			function resultado(){
 			var dato2=document.getElementById('operando2').value;
+			var dato1=document.getElementById('operando1').value;
 			if(ope=="/"){
 				if(dato2=="0"){
 					alert("No puede haber division entre cero")
 					}
 				}
-				document.getElementById('operando1').value=eval(operando1+ope+operando2);
-				document.getElementById('operando1').value="";
+				document.getElementById('operando1').value=eval(dato1+ope+dato2);
+				document.getElementById('operando2').value="0";
 
 			}
 	</script>
@@ -102,7 +103,7 @@
 		</tr>
 		<tr>
 			<td>
-				<button onClick="igual()">=</button>
+				<button onClick="resultado()">=</button>
 				<button onClick="numero(0)">0</button>
 				<button onClick="ce()">CE</button>
 				<button onClick="operador('/')">/</button>

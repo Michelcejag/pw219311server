@@ -1,0 +1,72 @@
+body{
+	font-size: 16px;
+	margin:0px auto;
+	max-width: 1024px;
+	min-width: 1024px;
+}
+header{
+	margin-top: 25px;
+}
+header img{
+	width: 3%;
+	vertical-align: middle;
+}
+#EUR{
+	position: relative;
+	left:  640px;
+	font-size: 0.90em;
+}
+#indigo{
+	font-size: 2em;
+	position: relative;
+	top: -190px;
+	right: 40px;
+}
+#menu{
+	font-size: 0.95em;
+	margin-left: 0.5px;
+	margin-right: 10px;
+}
+#nort{
+	position: relative;
+	left: 300px;
+}
+#persona{
+	width: 65%;
+}
+#planta{
+	width: 80%;
+	margin-left: 30px;
+	left: 10px;
+}
+#posted{
+	font-size: 0.50em;
+}
+#tela{
+	width: 200px;
+	margin-left: 20px;
+}
+#Seccion01{
+	border-top: 3px solid black;
+	margin-top: 10px;
+}
+#Seccion01 article{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+#sec01Art01 {
+	width: 60%;
+}
+
+#sec01Art02{
+	width: 30%;
+	border-left: 3px solid black;
+}
+.lgris{
+	color: gray;
+}
+.nito{
+	font-weight: bold;
+}
