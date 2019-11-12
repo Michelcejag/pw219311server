@@ -1,0 +1,8 @@
+pagina web
+
+-Registro de usuarios (solo los que compren el producto)
+- Perfil
+-Apartado de experiencias 
+-Apartado de personas desaparecidas (
+-Base de datos (info de clientes y personas desaparecidas)
+-
